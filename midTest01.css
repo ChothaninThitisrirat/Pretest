@@ -1,0 +1,129 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+body {
+    background: rgb(42,157,255);
+    background: linear-gradient(90deg, rgba(42,157,255,0.6) 30%, rgba(255,12,12,0.6) 100%);  
+    padding-bottom: 10px;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 50px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 25px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    grid-column: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    padding: 10px;
+    gap: 20px;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h1 strong {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+figure {
+    flex: 60%;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+
+}
+
+figure img {
+    width: 55%;
+    border: solid 10px transparent;
+}
+
+figure img:hover{
+    scale: 1.1;
+    border-radius: 20px;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+#iron1 {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#iron2 {
+    top: 80px;
+    left: 150px;
+    position: absolute;
+}
+
+#iron3 {
+    top: 30px; 
+    right: 30px;
+    position: absolute;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 10px;
+    gap: 30px;
+}
+
+.block {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+
+.block > img {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.block > h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.block > p{
+    font-size: 22px;
+    text-align: left;
+    font-weight:200;
+}
+
